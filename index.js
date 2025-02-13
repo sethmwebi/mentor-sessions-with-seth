@@ -37,5 +37,11 @@
 // }
 //
 // console.log(calculateProduct(5, 6));
-let teacher = "Titus";
-console.log("hey now brown cow");
+// let teacher = "Titus";
+// console.log("hey now brown cow");
+function calculateProduct(num1, num2) {
+  return num1 * num2;
+}
+
+const product = calculateProduct(5, 3);
+console.log(product);
